@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -12,7 +16,7 @@
     <div class="elements">
         <div class='mail'>Gmail</div>
         <div class='imgs'>Images</div>
-        <div class='menu'>...<br>...<br>...</div>
+        <div class='menu'><span id='menu_1' class="material-icons">apps</span></div>
         <img class='logo' src='https://lh3.googleusercontent.com/ogw/ADea4I59Ht0xug_DbM4AucEL7mSoiApPPnqYtwDNq1r5=s32'></img>
     </div>
     </nav>
@@ -22,12 +26,16 @@
 <div class='search-el'>
     <form class='search-el-inner'>
         <div class='search-bar'>
-            <div class='mag-glass'>mag glass</div>
-            <div class='input'>input</div>
-            <div class='mic'>mic</div>
+            <div class='mag-glass'><span id='mag' class="material-icons-outlined">
+                search
+                </span></div>
+            <input class='input' type="text" class='input'></input>
+            <div class='mic'><img class='mic'src='https://www.clipartkey.com/mpngs/m/27-272205_google-microphone-png-google-search-by-voice-icon.png'></div>
             </div>
-        <div class='google-search'>google search</div>
-        <div class='lucky'>feeling lucky</div>
+            <div class='buttons'>
+        <button class='google-search'>Google Search</button>
+        <button class='lucky'>I'm Feeling Lucky</button>
+        </div>
     </form>
 </div>
 </body>

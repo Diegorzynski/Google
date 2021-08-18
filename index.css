@@ -1,7 +1,7 @@
 .elements{
     display:flex;
     justify-content:flex-end;
-    font: 14px / 27px Arial;
+    font: 13px / 27px Arial;
     color: #222
     
 }
@@ -12,9 +12,16 @@
 }
 
 .menu{
-    font-size: 20px;
+    font-size: 15px;
     padding: 0 8px 0;
     line-height:5px;
+    color: #5f6368;
+    font-size: 30px;
+    align-content: center;
+    align-items: center;
+}
+#menu_1{
+    padding-top: 3px;
 }
 
 .logo{
@@ -29,7 +36,7 @@
 }
 .google{
     height:92px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -41,11 +48,91 @@
 
 .search-bar{
     display: flex;
-    width: 500px;
-    height: 25px;
+    width: 550px;
+    height: 35px;
     border: 1px solid #ddd; 
     border-radius: 30px;
     padding: 5px 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    border: none;
+    border-color:transparent;
+    outline:none;
+    width: 485px;
+
+}
+
+
+#mag{
+    font-size: 20px;
+    color: #9aa0a6;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+
+.mic {
+    height: 20px;
+    padding-right: 3px;
     
-    
+}
+
+.google-search, .lucky {
+    padding: 7px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    height: 36px;
+    text-align: center;
+    border-radius: 4px;
+
+
+}
+
+.lucky{
+    margin-right: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.google-search:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0  /10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.lucky:hover{
+        box-shadow: 0 1px 1px rgb(0 0 0  /10%);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+        color: #202124;
+}
+
+.search-bar:hover{
+    box-shadow: 0 4px 4px rgb(0 0 0  /10%);
+        background-color: white;
+        border: 1px solid #dadce0;
+        color: #202124;
+}
+
+.menu:hover, .logo:hover{
+background-color: #eeecec;
+border-radius: 50%;
+}
+
+.google-search:focus {
+    border: 1px solid #4285f4;
+}
+.lucky:focus{
+    border: 1px solid #4285f4; 
+}
+
+.mail:hover, .imgs:hover{
+    text-decoration: underline;
 }
